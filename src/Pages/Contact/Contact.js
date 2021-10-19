@@ -20,7 +20,7 @@ const Contact = () => {
                     <h5>13323 California St.Omaha, NE, 18813</h5>
                     <h3>Tel:</h3>
                     <h5>1 (855) 123 780 456</h5>
-                    <h5>+8801744503499</h5>
+                    <h5>+8801716149429</h5>
                     <h3>Email</h3>
                     <h5 className="margin-bottom">farukabdullahal9@gmail.com</h5>
                     <Form>

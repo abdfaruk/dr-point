@@ -15,15 +15,15 @@ const Doctors = () => {
                     <p>CEO / Surgen</p>
                     <div>
                         <a href="https://www.youtube.com/"
-                            className="youtube social">
+                            className="youtube social" target="_blank">
                             <FontAwesomeIcon icon={faYoutube} size="2x" />
                         </a>
                         <a href="https://www.facebook.com/abdullah.alfaruk.599"
-                            className="facebook social">
+                            className="facebook social" target="_blank">
                             <FontAwesomeIcon icon={faFacebook} size="2x" />
                         </a>
                         <a href="https://www.instagram.com/abdullah_faruk1/"
-                            className="instagram social">
+                            className="instagram social" target="_blank">
                             <FontAwesomeIcon icon={faInstagram} size="2x" />
                         </a>
                     </div>
@@ -34,15 +34,15 @@ const Doctors = () => {
                     <p>Co Founder / Dentist</p>
                     <div>
                         <a href="https://www.youtube.com/"
-                            className="youtube social">
+                            className="youtube social" target="_blank">
                             <FontAwesomeIcon icon={faYoutube} size="2x" />
                         </a>
                         <a href="https://www.facebook.com/abdullah.alfaruk.599"
-                            className="facebook social">
+                            className="facebook social" target="_blank">
                             <FontAwesomeIcon icon={faFacebook} size="2x" />
                         </a>
                         <a href="https://www.instagram.com/abdullah_faruk1/"
-                            className="instagram social">
+                            className="instagram social" target="_blank">
                             <FontAwesomeIcon icon={faInstagram} size="2x" />
                         </a>
                     </div>
@@ -53,15 +53,15 @@ const Doctors = () => {
                     <p>Chief Surgen</p>
                     <div>
                         <a href="https://www.youtube.com/"
-                            className="youtube social">
+                            className="youtube social" target="_blank">
                             <FontAwesomeIcon icon={faYoutube} size="2x" />
                         </a>
                         <a href="https://www.facebook.com/abdullah.alfaruk.599"
-                            className="facebook social">
+                            className="facebook social" target="_blank">
                             <FontAwesomeIcon icon={faFacebook} size="2x" />
                         </a>
                         <a href="https://www.instagram.com/abdullah_faruk1/"
-                            className="instagram social">
+                            className="instagram social" target="_blank">
                             <FontAwesomeIcon icon={faInstagram} size="2x" />
                         </a>
                     </div>
@@ -72,15 +72,15 @@ const Doctors = () => {
                     <p>Skin Care Specialist</p>
                     <div>
                         <a href="https://www.youtube.com/"
-                            className="youtube social">
+                            className="youtube social" target="_blank">
                             <FontAwesomeIcon icon={faYoutube} size="2x" />
                         </a>
                         <a href="https://www.facebook.com/abdullah.alfaruk.599"
-                            className="facebook social">
+                            className="facebook social" target="_blank">
                             <FontAwesomeIcon icon={faFacebook} size="2x" />
                         </a>
                         <a href="https://www.instagram.com/abdullah_faruk1/"
-                            className="instagram social">
+                            className="instagram social" target="_blank">
                             <FontAwesomeIcon icon={faInstagram} size="2x" />
                         </a>
                     </div>
