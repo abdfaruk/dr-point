@@ -8,6 +8,6 @@
 
 #We are providing medical service better then any others clinic.
 
-#You can contact with Dr. Point by this site.
+#You can contact with a Doctor by this site.
 
 #We provide advanced cancer treatment, and covid 19 support.
