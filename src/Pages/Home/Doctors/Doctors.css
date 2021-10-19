@@ -1,0 +1,52 @@
+.doctors{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+@media only screen and (max-width:688px) {
+    .doctors{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .doctors{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.single-doc{
+    background-color: rgb(226, 241, 241);
+    border-radius:20px ;
+    height: 350px;
+}
+.single-doc img {
+    height: 200px;
+    width: 100%;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: black;
+  }

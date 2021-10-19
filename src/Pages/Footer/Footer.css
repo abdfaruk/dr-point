@@ -1,0 +1,46 @@
+.footer-area{
+    background-image: url('https://www.oceantranslations.com/wp-content/uploads/2019/10/medical-background-with-loop_4p1uvboye__F0008.png');
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.footer-1st{
+    display: flex;
+    height: auto;
+    color: black;
+    margin-top: 100px;
+}
+.footer-text{
+    margin-left: 20px;
+}
+.footer-2nd{
+    height: 500px;
+    background-color: lightgrey;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+.footer-contact{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width:688px) {
+    .footer-area{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-1st{
+        width: 100%;
+        position: relative;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .footer-area{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-1st{
+        width: 100%;
+        position: relative;
+    }
+}

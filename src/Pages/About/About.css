@@ -1,0 +1,19 @@
+.about-page{
+    background-image: url('https://t2conline.com/wp-content/uploads/2019/04/thumbnail_Minor_Injury_Walk_In_Clinic1.jpg');
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.about-heading{
+    padding-top: 100px;
+}
+
+.about-image img{
+    height: 500px;
+    width: 600px;
+}
+
+.about-text{
+    padding-top: 80px;
+}

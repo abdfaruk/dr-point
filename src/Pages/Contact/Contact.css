@@ -1,0 +1,32 @@
+.contact-body{
+    height: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-body-1{
+    display: flex;
+}
+.contact-title{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.contact-img img{
+    height: 700px;
+    width: 700px;
+}
+.contact-detail{
+    margin-left: 50px;
+}
+.margin-bottom{
+    margin-bottom: 70px;
+}
+.form-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: lightgreen;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
