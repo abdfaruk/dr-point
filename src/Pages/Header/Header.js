@@ -13,6 +13,7 @@ const Header = () => {
                     <Navbar.Brand href="#home"><img className="nav-img" src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/medical-logo.jpg" alt="" /></Navbar.Brand>
                     <Nav.Link as={Link} to="/home">Home</Nav.Link>
                     <Nav.Link as={Link} to="/services">Services</Nav.Link>
+                    <Nav.Link as={Link} to="/extra">Treatments</Nav.Link>
                     <Nav.Link as={Link} to="/about">About</Nav.Link>
                     <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                     <Navbar.Toggle />

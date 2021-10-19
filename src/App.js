@@ -15,6 +15,7 @@ import AuthProvider from './context/AuthProvider';
 import PrivetRout from './Pages/Login/PrivetRout/PrivetRout';
 import ServicesFixed from './Pages/Services/ServicesFixed';
 import NotFound from './Pages/NotFound/NotFound';
+import ExtraCompo from './Pages/ExtraCompo/ExtraCompo';
 
 function App() {
   return (
@@ -58,6 +59,9 @@ function App() {
             <Route path='/login'>
               <Login></Login>
             </Route>
+            <PrivetRout path='/extra'>
+              <ExtraCompo></ExtraCompo>
+            </PrivetRout>
             <Route path='*'>
               <NotFound></NotFound>
             </Route>
