@@ -19,7 +19,7 @@ import ExtraCompo from './Pages/ExtraCompo/ExtraCompo';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App all-body">
       <AuthProvider>
         <BrowserRouter>
           <Header></Header>
