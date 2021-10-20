@@ -29,14 +29,12 @@ function App() {
               <Services></Services>
               <Doctors></Doctors>
               <Treatment></Treatment>
-              <Contact></Contact>
             </Route>
             <Route path='/home'>
               <Slider></Slider>
               <Services></Services>
               <Doctors></Doctors>
               <Treatment></Treatment>
-              <Contact></Contact>
             </Route>
             <Route path='/contact'>
               <Contact></Contact>

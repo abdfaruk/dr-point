@@ -1,46 +1,91 @@
-.footer-area{
-    background-image: url('https://www.oceantranslations.com/wp-content/uploads/2019/10/medical-background-with-loop_4p1uvboye__F0008.png');
-    height: auto;
-    width: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-}
-.footer-1st{
-    display: flex;
-    height: auto;
-    color: black;
-    margin-top: 100px;
-}
-.footer-text{
-    margin-left: 20px;
-}
-.footer-2nd{
-    height: 500px;
-    background-color: lightgrey;
-    margin-top: 100px;
-    margin-right: 150px;
-}
-.footer-contact{
-    margin-top: 30px;
-    margin-left: 20px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media only screen and (max-width:688px) {
-    .footer-area{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .footer-1st{
-        width: 100%;
-        position: relative;
+.footer-area{
+    background-image: url('https://www.oceantranslations.com/wp-content/uploads/2019/10/medical-background-with-loop_4p1uvboye__F0008.png');
+    padding: 70px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.footer-fl{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #7011ec;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.footer-col ul li{
+    margin-bottom: 10px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.youtube-1 {
+    color: red;
+  }
+  
+  a.facebook-1 {
+    color: #38e64f;
+  }
+  a.instagram-1 {
+    color: black;
+  }
+
+@media only screen and (max-width:767px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
     }
 }
-@media only screen and (min-width:689px) and (max-width: 991px){
-    .footer-area{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .footer-1st{
+@media only screen and (max-width: 574px){
+    .footer-col{
         width: 100%;
-        position: relative;
     }
 }

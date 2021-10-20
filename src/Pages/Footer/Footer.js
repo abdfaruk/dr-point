@@ -1,50 +1,59 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faYoutube, faFacebook, faInstagram, faTwitter} from "@fortawesome/free-brands-svg-icons";
 import './Footer.css';
 
 const Footer = () => {
     return (
         <div className="footer-area">
-            <div className="footer-1st">
-                <div className="footer-text">
-                    <h4>DEPARTMENTS</h4>
-                    <p>Blood Donor Center</p>
-                    <p>Community Surgery</p>
-                    <p>Emergency Medicine</p>
-                    <p>Gastroenterology</p>
-                    <p>Patient Care Services</p>
+            <div className="container">
+                <div className="footer-fl">
+                    <div className="footer-col">
+                        <h4>DEPARTMENTS</h4>
+                        <ul>
+                            <li>Blood Donor Center</li>
+                            <li>Community Surgery</li>
+                            <li>Emergency Medicine</li>
+                            <li>Gastroenterology</li>
+                            <li>Patient Care Services</li>
+                        </ul>
+                    </div>
+                    <div className="footer-col">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li>Our Mission</li>
+                            <li>FAQs</li>
+                            <li>Testimonials</li>
+                            <li>Live Support</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div className="footer-col">
+                        <h4>Contact With Us</h4>
+                        <ul>
+                            <li>Address: 13323 California St.Omaha, NE, 18813</li>
+                            <li>Tel: 1 (855) 123 780 456</li>
+                            <li>Email: farukabdullahal9@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div className="footer-col">
+                        <h4>Follow Us</h4>
+                        <div className="social-link">
+                        <a href="https://www.youtube.com/"
+                            className="youtube-1 social" target="_blank">
+                            <FontAwesomeIcon icon={faYoutube} size="2x" />
+                        </a>
+                        <a href="https://www.facebook.com/abdullah.alfaruk.599"
+                            className="facebook-1 social" target="_blank">
+                            <FontAwesomeIcon icon={faFacebook} size="2x" />
+                        </a>
+                        <a href="https://www.instagram.com/abdullah_faruk1/"
+                            className="instagram-1 social" target="_blank">
+                            <FontAwesomeIcon icon={faInstagram} size="2x" />
+                        </a>
+                        </div>
+                    </div>
                 </div>
-                <div className="footer-text">
-                    <h4>USEFUL LINKS</h4>
-                    <p>Get An Appointment</p>
-                    <p>Old Patient Reports</p>
-                    <p>Exclusive Treatments</p>
-                    <p>Insurance Claim</p>
-                    <p>Our Doctors Profile</p>
-                </div>
-                <div className="footer-text">
-                    <h4>Helpful Resources</h4>
-                    <p>Resources</p>
-                    <p>Demo Videos</p>
-                    <p>Lessons</p>
-                    <p>Live Support</p>
-                    <p>ALPT</p>
-                </div>
-                <div className="footer-text">
-                    <h4>About Us</h4>
-                    <p>Mission</p>
-                    <p>FAQs</p>
-                    <p>Testimonials</p>
-                    <p>Contact Us</p>
-                </div>
-            </div>
-            <div className="footer-2nd mx-5">
-                <h3 className="footer-contact">Contact Us</h3>
-                <h5 className="footer-contact">13323 California St.Omaha, NE, 18813</h5>
-                <h4 className="footer-contact">Phone</h4>
-                <p className="footer-contact">1 (855) 123 780 456</p>
-                <p className="footer-contact">+8801716149429</p>
-                <h4 className="footer-contact">Email</h4>
-                <p className="footer-contact">farukabdullahal9@gmail.com</p>
             </div>
         </div>
     );
