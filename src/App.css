@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+
+@media only screen and (max-width:767px) {
+  .App{
+      overflow: hidden;
+  }
+}
+@media only screen and (max-width: 574px){
+  .App{
+      overflow: hidden;
+  }
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
